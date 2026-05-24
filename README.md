@@ -14,13 +14,13 @@ Distributed databases make fundamental trade-offs between **Consistency**, **Ava
 
 ```
                         ┌─────────────────────────────────┐
-                        │      MongoDB Replica Set (rs0)   │
-                        │                                  │
-  Python scripts ──────►│  mongo1 :27017  ← PRIMARY        │
-                        │  mongo2 :27018  ← SECONDARY       │
-                        │  mongo3 :27019  ← SECONDARY       │
-                        │                                  │
-                        │  Priority: mongo1=5, others=1    │
+                        │      MongoDB Replica Set (rs0)  │
+                        │                                 │
+  Python scripts ──────►│  mongo1 :27017  ← PRIMARY       │
+                        │  mongo2 :27018  ← SECONDARY     │
+                        │  mongo3 :27019  ← SECONDARY     │
+                        │                                 │
+                        │  Priority: mongo1=5, others=1   │
                         └─────────────────────────────────┘
 ```
 
